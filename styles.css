@@ -3,7 +3,7 @@
 }
 
 .page-wrap {
-    width: 800px;
+    max-width: 800px;
     margin: 20px auto;
     margin-top: 100px;
 }
@@ -19,6 +19,21 @@ div.sticky {
 .main-story {
     position: relative;
     margin: 0 0 25px 0;
+}
+
+@media only screen and (max-width: 812px) {
+    .main-story,
+    .main-story img {
+        width: 525px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .main-story,
+    .main-story img {
+        width: 250px;
+        height: 350px;
+    }
 }
 
 img {
@@ -54,7 +69,8 @@ h1, h2 {
 }
 
 .sub-stories {
-    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 0 25px 0;
 }
 
@@ -62,6 +78,7 @@ h1, h2 {
     float: left;
     width: 250px;
     margin-right: 25px;
+    margin-bottom: 25px;
     position: relative;
     font-size: 80%;
 }
