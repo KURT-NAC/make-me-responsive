@@ -1,5 +1,3 @@
-Do the following for this pen on Codepen: https://codepen.io/team/microsoft/pen/2328fcb920b073e8998be87289485fae/
-
 - Fork the code using your Codepen account (create a free one if you don't already have one)
 - Make the page responsive (it should look good from the smallest mobile device to a large desktop)
 - Make the first h1 tag to be fixed at the top of the window so it always shows when you scroll down
