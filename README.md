@@ -5,5 +5,3 @@
 - Add a function so when a user clicks on the hyperlink in the "Most Important Story" module it goes to https://picsum.photos/images instead of the existing href value.
 - Add a function so when any "Less Important Story" module is clicked it gets replaced with a new "Less Important Story". Only 3 "Less Important Story" modules should appear to the user at once. Never show the same "Less Important Story" at the same time.
 - You're welcome to change any markup, CSS and add JS as needed. Please use vanilla JS (no frameworks or libraries).
-
-Please provide the forked codepen URL when completed, be sure the latest is saved!
