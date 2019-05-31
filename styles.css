@@ -10,30 +10,16 @@
 
 div.sticky {
     overflow: hidden;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: 99;
+    background-color: #fff;
 }
 
 .main-story {
     position: relative;
     margin: 0 0 25px 0;
-}
-
-@media only screen and (max-width: 812px) {
-    .main-story,
-    .main-story img {
-        width: 525px;
-    }
-}
-
-@media only screen and (max-width: 540px) {
-    .main-story,
-    .main-story img {
-        width: 250px;
-        height: 350px;
-    }
 }
 
 img {
@@ -85,4 +71,26 @@ h1, h2 {
 
 .last {
     margin-right: 0;
+}
+
+
+@media only screen and (max-width: 812px) {
+    .main-story,
+    .main-story img {
+        width: 525px;
+    }
+}
+
+@media only screen and (max-width: 616px) {
+    .page-wrap {
+        margin-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .main-story,
+    .main-story img {
+        width: 250px;
+        height: 350px;
+    }
 }
